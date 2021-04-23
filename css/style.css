@@ -48,7 +48,7 @@ li {
 }
 
 .img-container {
-     margin: 20px;
+    margin: 20px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -56,30 +56,30 @@ li {
     background-position: center;
 }
 
-.img-trans-box {
-    background-color: black;
-    opacity: 0.2;
+.img-title {
+    background-color: rgba(0,0,0,0.2);
     height: 450px;
-    padding: 22px;
     border-radius: 10px;
+    padding: 280px 330px 0 40px;
+    color: white;
 }
 
-.img-trans-box h3 {
+.img-title h3 {
     font-size: 30px;
-    color: white;
     font-weight: lighter;
-
 }
 
 
 .float-container {
-    background-color: blue;
     margin: 20px 20px 10px 20px;
 }
 
-.float-title {
-    height: 80px;
-    background-color: cornflowerblue;
+
+.float-title h2 {
+    font-size: 38px;
+}
+.float-title span {
+    color: #999;
 }
 
 .right-bar,.left-bar {
@@ -99,13 +99,39 @@ li {
     padding: 20px 0px 20px 10px;
 }
 
-.content {
-    background-color: cornflowerblue;
-    height: 350px;
+.content-img {
+    background-image: url("../img/img-1.jpg");
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.content2-img {
+    background-image: url("../img/banner-2.jpg");
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.content3-img {
+    background-image: url("../img/img-3.jpg");
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.float-container p {
+    font-size: 15px;
 }
 
 footer {
-    height: 100px;
-    background-color: darkmagenta;
     margin: 10px 20px 20px 20px;
+}
+
+.firma {
+    width: 150px;
+    margin: 0 auto;
 }
