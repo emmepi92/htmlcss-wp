@@ -74,10 +74,15 @@ li {
     margin: 20px 20px 10px 20px;
 }
 
+.float-title {
+    padding: 20px 0;;
+
+}
 
 .float-title h2 {
     font-size: 38px;
 }
+
 .float-title span {
     color: #999;
 }
@@ -99,31 +104,33 @@ li {
     padding: 20px 0px 20px 10px;
 }
 
-.content-img {
-    background-image: url("../img/img-1.jpg");
-    height: 180px;
+.content-img, .content2-img, .content3-img {
+    height: 180px;    
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+}
+
+
+.content-img {
+    background-image: url("../img/img-1.jpg");
 }
 
 .content2-img {
     background-image: url("../img/banner-2.jpg");
-    height: 180px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
+    
 }
 .content3-img {
     background-image: url("../img/img-3.jpg");
-    height: 180px;
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
+}
+
+.float-container h4 {
+    font-weight: normal;
 }
 
 .float-container p {
     font-size: 15px;
+    color: #999;
 }
 
 footer {
@@ -133,4 +140,10 @@ footer {
 .firma {
     width: 150px;
     margin: 0 auto;
+}
+.firma::after{
+    content: "\2665";
+    color: red;
+    font-size: 2em;
+
 }
