@@ -124,6 +124,13 @@ li {
     background-image: url("../img/img-3.jpg");
 }
 
+.op-box {
+    height: 180px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+
+}
+
 .float-container h4 {
     font-weight: normal;
 }
