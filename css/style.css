@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style-type: none;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
 }
  /* utility class */
 .fl {
@@ -16,16 +21,30 @@
 /* end utility class */
 
 .container-page {
-    margin: 20px auto;
+    margin: 0 auto;
     width: 75%;
     max-width: 1200px;
     min-width: 500px;
 }
 
 header {
-    height: 100px;
-    background-color: violet;
-    margin: 20px;
+    margin: 0 20px;
+}
+
+header img {
+    width: 180px;
+    border-right:  1px solid #ddd;
+    padding-right: 20px;
+}
+
+nav {
+    padding: 30px 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 10px;
+    color: #999;
 }
 
 .img-container {
