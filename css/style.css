@@ -115,6 +115,7 @@ li {
 
 .content-img {
     background-image: url("../img/img-1.jpg");
+    position: relative;
 }
 
 
@@ -123,7 +124,7 @@ li {
     content: "";
     height: 180px;
     background-color: rgba(0,0,0,0.2);
-    width: 14%;
+    width: 100%;
     position: absolute;
     border-radius: 10px;
 }
