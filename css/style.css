@@ -27,6 +27,7 @@ html {
     min-width: 500px;
 }
 
+/* header  */
 header {
     margin: 0 20px;
 }
@@ -47,6 +48,7 @@ nav li {
     color: #999;
 }
 
+/* image with some text  */
 .img-container {
     margin: 20px;
     background-image: url("../img/banner.jpg");
@@ -69,14 +71,13 @@ nav li {
     font-weight: lighter;
 }
 
-
+/* float  */
 .fl-container {
     margin: 20px 20px 10px 20px;
 }
 
 .fl-title {
     padding: 20px 0;;
-
 }
 
 .fl-title h2 {
@@ -112,12 +113,10 @@ nav li {
     background-color: rgba(0,0,0,0.2);
 }
 
-
 .content-img {
     background-image: url("../img/img-1.jpg");
     position: relative;
 }
-
 
  /* solo la prima immagine con l'after e position  */
 .content-img::after {
@@ -133,6 +132,7 @@ nav li {
     background-image: url("../img/banner-2.jpg");
     
 }
+
 .content3-img {
     background-image: url("../img/img-3.jpg");
 }
@@ -141,7 +141,6 @@ nav li {
     height: 180px;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.2);
-
 }
 
 .fl-container h4 {
@@ -154,6 +153,7 @@ nav li {
     color: #999;
 }
 
+/* footer  */
 footer {
     margin: 10px 20px 20px 20px;
 }
@@ -166,5 +166,4 @@ footer {
     content: "\2764";
     color: red;
     font-size: 1.5em;
-
 }
