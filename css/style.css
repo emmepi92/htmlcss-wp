@@ -41,7 +41,7 @@ nav {
     padding: 30px 0;
 }
 
-li {
+nav li {
     display: inline-block;
     margin-right: 10px;
     color: #999;
@@ -56,38 +56,38 @@ li {
     background-position: center;
 }
 
-.img-title {
+.img-text {
     background-color: rgba(0,0,0,0.2);
     height: 450px;
     border-radius: 10px;
-    padding: 270px 400px 0 40px;
+    padding: 250px 400px 0 40px;
     color: white;
 }
 
-.img-title h3 {
+.img-text h3 {
     font-size: 30px;
     font-weight: lighter;
 }
 
 
-.float-container {
+.fl-container {
     margin: 20px 20px 10px 20px;
 }
 
-.float-title {
+.fl-title {
     padding: 20px 0;;
 
 }
 
-.float-title h2 {
+.fl-title h2 {
     font-size: 38px;
 }
 
-.float-title span {
+.fl-title span {
     color: #999;
 }
 
-.right-bar,.left-bar {
+.r-aside,.l-aside {
     width: 20%;
 }
 
@@ -96,11 +96,11 @@ li {
     padding: 20px 10px;
 }
 
-.right-bar {
+.r-aside {
     padding: 20px 10px 20px 0;
 }
 
-.left-bar {
+.l-aside {
     padding: 20px 0px 20px 10px;
 }
 
@@ -144,12 +144,12 @@ li {
 
 }
 
-.float-container h4 {
+.fl-container h4 {
     font-weight: normal;
     padding: 10px 0;
 }
 
-.float-container p {
+.fl-container p {
     font-size: 15px;
     color: #999;
 }
